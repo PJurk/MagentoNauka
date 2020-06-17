@@ -26,6 +26,10 @@ RUN requirements="libbz2-dev libfreetype6-dev libicu-dev libjpeg62-turbo-dev lib
     pcntl \
     gettext \
     bz2 
+
+RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
+    echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list \
+    && apt-get -y update && apt-get -y install yarn
     
 RUN pecl channel-update pecl.php.net \
   && pecl install xdebug
