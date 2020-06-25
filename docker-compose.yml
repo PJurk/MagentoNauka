@@ -13,7 +13,7 @@ services:
     ports:
       - "80:80"
     volumes:  
-    - magento-app:/var/www/html
+    - ./app:/var/www/html
     #- magento-tests:/app/dev/tests/acceptance/tests/_output/allure-results
     env_file:
       - env
@@ -23,7 +23,10 @@ services:
       - ./db:/var/lib/mysql
     env_file:
       - env
-    command: --innodb_use_native_aio=0
+    command: 
+      - "--innodb_use_native_aio=0"
+      - "--innodb_buffer_pool_size=10M"
+      - "--innodb_log_file_size=100M"
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     container_name: phpmyadmin
@@ -37,7 +40,10 @@ services:
       - "1025"
       - "8025:8025"
   elasticsearch:
-    image: elasticsearch:6.8.10
+    build: 
+      context: ./Docker/Elastic
+      dockerfile: Dockerfile
+    image: pjurk/magento-elastic
     ports:
       - "9200:9200"
       - "9300:9300"

@@ -1,1 +1,1 @@
-docker cp ./app my-magento:/var/www/html/. 
+docker cp ./app/. my-magento:/var/www/html/.

@@ -11,6 +11,8 @@
         "sort-packages": true
     },
     "require": {
+        "creativestyle/magesuite": "^5.0.0",
+        "elasticsearch/elasticsearch": "6.7.2",
         "magento/module-bundle-sample-data": "100.3.*",
         "magento/module-catalog-rule-sample-data": "100.3.*",
         "magento/module-catalog-sample-data": "100.3.*",
@@ -31,7 +33,8 @@
         "magento/module-widget-sample-data": "100.3.*",
         "magento/module-wishlist-sample-data": "100.3.*",
         "magento/product-community-edition": "2.3.5-p1",
-        "magento/sample-data-media": "100.3.*"
+        "magento/sample-data-media": "100.3.*",
+        "smile/elasticsuite": "2.8.8"
     },
     "require-dev": {
         "allure-framework/allure-phpunit": "~1.2.0",

@@ -27,9 +27,6 @@ RUN requirements="libbz2-dev libfreetype6-dev libicu-dev libjpeg62-turbo-dev lib
     gettext \
     bz2 
 
-RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add - \
-    echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list \
-    && apt-get -y update && apt-get -y install yarn
     
 RUN pecl channel-update pecl.php.net \
   && pecl install xdebug
@@ -39,6 +36,9 @@ RUN docker-php-ext-enable xdebug \
 
 RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - \
   && apt-get install -y nodejs 
+
+RUN curl -o- -L https://yarnpkg.com/install.sh | bash
+
   
 RUN curl -sSLO https://github.com/mailhog/mhsendmail/releases/download/v0.2.0/mhsendmail_linux_amd64 \
   && chmod +x mhsendmail_linux_amd64 \
@@ -71,15 +71,23 @@ RUN rm -rf "/etc/apache2/sites-available/default-ssl.conf"
 
 
 
-VOLUME /var/www
+# VOLUME /var/www
 COPY ./php.ini /usr/local/etc/php/php.ini
-COPY cronstart /usr/local/bin/
-COPY ./app  /var/www/html
+# COPY ./app  /var/www/html
+
+# RUN  printf '* */1 * * * php /var/www/html/update/cron.php\n' >> /etc/crontab \
+#   && printf '* */1 * * * php /var/www/html/bin/magento cron:run\n' >> /etc/crontab \
+#   && printf '* */1 * * * php /var/www/html/bin/magento setup:cron:run\n#\n' >> /etc/crontab \
+# RUN  service cron start  
+#   && touch /var/www/html/var/.setup_cronjob_status /var/www/html/var/.update_cronjob_status \
+#   && chown root:root /var/www/html/var/.setup_cronjob_status /var/www/html/var/.update_cronjob_status
 #RUN chown -R magento:magento /var/www
-RUN chmod -R 777 /var/www
+
+
+# RUN chmod -R 777 /var/www
 RUN a2enmod rewrite
 WORKDIR $INSTALL_DIR
-RUN chmod u+x bin/magento
+# RUN chmod u+x bin/magento
 # USER magento:magento
 
 

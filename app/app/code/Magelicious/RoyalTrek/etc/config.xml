@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+
+<config>
+  <default>
+    <carriers>
+      <royaltrek>
+        <active>1</active>
+        <title>Royal Trek Shipping</title>
+        <sallowspecific>0</sallowspecific>
+        <showmethod>0</showmethod>
+        <specificerrmsg>The Royal Trek shipping is not available.</specificerrmsg>
+        <sort_order>10</sort_order>
+        <model>Magelicious\RoyalTrek\Model\Carrier\RoyalTrek</model>
+        <royaltrekstandard>
+            <title><![CDATA[RoyalTrek Standard]]></title>
+            <shippingcost>4.99</shippingcost>
+        </royaltrekstandard>
+        <royaltrek48hr>
+            <title><![CDATA[RoyalTrek 48h]]></title>
+            <shippingcost>9.99</shippingcost>
+        </royaltrek48hr>
+      </royaltrek>
+    </carriers>
+  </default>
+</config>
