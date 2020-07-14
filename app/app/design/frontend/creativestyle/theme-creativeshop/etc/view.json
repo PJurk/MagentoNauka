@@ -374,7 +374,9 @@
           "display_modes_icons": true
         }
       },
-      "configurable_tile_swatches": {},
+      "configurable_tile_swatches": {
+        "enabled": true
+      },
       "ajax_addtocart": {
         "enabled": true,
         "css_classes": {
@@ -564,9 +566,7 @@
       },
       "min_content_width": 320,
       "max_content_width": 1200,
-      "accordion": {
-        "arrow_icon": "images/icons/arrow_down.svg"
-      },
+      "accordion": {},
       "brand_carousel": {
         "lazyload_brand_images": true,
         "link_brands": true,
@@ -789,6 +789,15 @@
         "laptopLg": 1280,
         "desktop": 1440,
         "tv": 1920
+      }
+    },
+    "Magento_Checkout": {
+      "minicart_offcanvas": {
+        "open_on_product_added": true,
+        "products_carousel": {
+          "relation_type": "upsell",
+          "button": true
+        }
       }
     }
   }

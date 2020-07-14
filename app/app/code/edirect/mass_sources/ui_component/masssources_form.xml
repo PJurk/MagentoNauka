@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+
+<form>
+  <argument name="data" xsi:type="array">
+    <!-- <item name="js_config" xsi:type="array">
+      <item name="provider" xsi:type="string">minventory_resupply_form.minventory_resupply_form_data_source</item>
+      <item name="deps" xsi:type="string">minventory_resupply_form.minventory_resupply_form_data_source</item>
+    </item> -->
+    <item name="layout" xsi:type="array">
+      <item name="type" xsi:type="string">tabs</item>
+    </item>
+  </argument>
+  <settings>
+    <buttons>
+      <!-- <button name="save" class="Magelicious\Minventory\Block\Adminhtml\Product\Edit\Button\Save"/> -->
+      <button name="back" class="Edirect\Mass_Sources\Block\Adminhtml\MassSources\Upload\Button\Back"/>
+    </buttons>
+  </settings>
+  <!-- dataSource -->
+	<!-- <dataSource name="minventory_resupply_form_data_source">
+	  <argument name="data" xsi:type="array">
+	    <item name="js_config" xsi:type="array">
+	      <item name="component" xsi:type="string">Magento_Ui/js/form/provider</item>
+	    </item>
+	  </argument>
+	  <dataProvider class="Magelicious\Minventory\Ui\DataProvider\Product\Form\ProductDataProvider" name="minventory_resupply_form_data_source">
+	    <settings>
+	      <requestFieldName>id</requestFieldName>
+	      <primaryFieldName>entity_id</primaryFieldName>
+	    </settings>
+	  </dataProvider>
+	</dataSource> -->
+  <!-- fieldset -->
+	<fieldset name="masssources_upload">
+	  <argument name="data" xsi:type="array">
+	    <item name="config" xsi:type="array">
+	      <item name="label" xsi:type="string" translate="true">Sources Upload</item>
+	    </item>
+	  </argument>
+	  <field name="upload">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="label" xsi:type="string">Sources CSV</item>
+                    <item name="visible" xsi:type="boolean">true</item>
+                    <item name="formElement" xsi:type="string">fileUploader</item>
+                    <item name="uploaderConfig" xsi:type="array">
+                        <item name="url" xsi:type="url" path="mass_sources/MassSource/upload"/>
+                    </item>
+                </item>
+            </argument>
+        </field>
+	</fieldset>
+</form>

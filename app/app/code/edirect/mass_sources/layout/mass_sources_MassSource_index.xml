@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+
+<page>
+  <update handle="styles"/>
+  <body>
+    <referenceContainer name="content">
+      <uiComponent name="masssources_form"/>
+    </referenceContainer>   
+  </body>
+</page>

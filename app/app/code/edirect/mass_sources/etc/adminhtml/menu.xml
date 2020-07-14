@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <menu>
+        <add id="Edirect_MassSources::mass_sources"
+             title="Mass Sources"
+             translate="title"
+             module="Edirect_MassSources"
+             sortOrder="12"
+             parent="Magento_InventoryAdminUi::inventory"
+             action="mass_sources/MassSource/index"
+             resource="Edirect_MassSources::mass_sources"/>
+    </menu>
+</config>

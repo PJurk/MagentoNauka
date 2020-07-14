@@ -83,6 +83,9 @@
         <referenceBlock name="logo">
             <arguments>
                 <argument name="logo_file" xsi:type="string">images/logo.svg</argument>
+                <argument name="logo_width" xsi:type="number">170</argument>
+                <argument name="logo_height" xsi:type="number">50</argument>
+                <!-- Keep old dimensions definitions for compatibility Magento <2.3.5 -->
                 <argument name="logo_img_width" xsi:type="number">170</argument>
                 <argument name="logo_img_height" xsi:type="number">50</argument>
             </arguments>
@@ -91,7 +94,8 @@
         <referenceContainer name="page.top">
             <block name="offcanvas" template="Magento_Theme::html/offcanvas.phtml" before="-">
                 <arguments>
-                    <argument name="additional_css_classes" xsi:type="string">cs-offcanvas--side_left</argument>
+                    <argument name="additional_css_classes" xsi:type="string">cs-offcanvas--navigation cs-offcanvas--side_left</argument>
+                    <argument name="additional_css_classes_drawer" xsi:type="string">cs-offcanvas__drawer--navigation</argument>
                 </arguments>
                 <block class="MageSuite\ThemeHelpers\Block\Icon" name="offcanvas.spinner">
                     <arguments>

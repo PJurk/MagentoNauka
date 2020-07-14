@@ -71,6 +71,9 @@
                         <argument xsi:type="boolean" name="value_display">true</argument>
                         <argument xsi:type="string" name="value_prefix">-</argument>
                         <argument xsi:type="string" name="value_suffix">%</argument>
+                        <argument xsi:type="string" name="badge_type">discount</argument>
+                        <argument xsi:type="boolean" name="enable_updating_badge_configurables">true</argument>
+                        <argument xsi:type="string" name="configurables_default_badge_text" translate="true">Up to</argument>
                     </arguments>
                 </block>
             </container>
@@ -101,7 +104,7 @@
         <!-- BUYBOX start -->
         <referenceContainer name="product.info.main" htmlTag="div" htmlClass="product-info-main cs-buybox">
             <container name="product.info.main.section.essentials" htmlTag="div" htmlClass="cs-buybox__section cs-buybox__section--essentials">
-                <block class="MageSuite\Frontend\Block\Product\View\ProductCategory" name="product.category.name" template="Magento_Catalog::product/view/category.phtml" before="-" />
+                <block class="MageSuite\Frontend\Block\Product\View\ProductCategory" name="product.category.name" template="Magento_Catalog::product/view/category.phtml" before="page.main.title" />
                 <container name="product.info.main.reviews-summary" htmlTag="div" htmlClass="cs-buybox__reviews-summary" />
                 <container name="product.info.main.highlights" htmlTag="div" htmlClass="cs-buybox__highlights" />
             </container>
@@ -193,6 +196,7 @@
         <!-- stock availability -->
         <move element="product.info.type" destination="product.info.main.section.form" after="-" />
         <!-- Prices -->
+        <referenceContainer name="product.info.price" htmlClass="product-info-price cs-buybox__price" />
         <move element="product.info.price" destination="product.info.main.section.essentials" before="product.info.main.highlights" />
         <move element="product.price.tier" destination="product.info.main.section.essentials" after="product.info.price" />
         <move element="product.info" destination="product.info.main.section.form" />
