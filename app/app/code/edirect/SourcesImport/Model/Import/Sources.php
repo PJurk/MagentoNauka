@@ -107,8 +107,28 @@ class Sources extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
             __('The name cannot be empty.')
         );
         $this->addMessageTemplate(
-            'DurationIsRequired',
-            __('Duration should be greater than 0.')
+            'RegionIDIsRequired',
+            __('Region ID must be set.')
+        );
+        $this->addMessageTemplate(
+            'RegionIsRequired',
+            __('Region name must be set.')
+        );
+        $this->addMessageTemplate(
+            'CityIsRequired',
+            __('City must be specified.')
+        );
+        $this->addMessageTemplate(
+            'StreetIsRequired',
+            __('Street must be specified.')
+        );
+        $this->addMessageTemplate(
+            'PostCodeIsRequired',
+            __('Postal code must be specified.')
+        );
+        $this->addMessageTemplate(
+            'SourceCodeIsRequired',
+            __('Source code must be set.')
         );
     }
 
@@ -122,15 +142,40 @@ class Sources extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
      */
     public function validateRow(array $rowData, $rowNum): bool
     {
+        $sourceCode = $rowData['source_code'] ?? '';
         $name = $rowData['name'] ?? '';
-        $duration = (int) $rowData['duration'] ?? 0;
+        $region_id = $rowData['region_id'] ?? '';
+        $region = $rowData['region'] ?? '';
+        $city = $rowData['city'] ?? '';
+        $street = $rowData['street'] ?? '';
+        $postcode = $rowData['postcode'] ?? '';
+
+        if (!$region_id) {
+            $this->addRowError('RegionIDIsRequired', $rowNum);
+        }
+
+        if (!$region) {
+            $this->addRowError('RegionIsRequired', $rowNum);
+        }
+
+        if (!$city) {
+            $this->addRowError('CityIsRequired', $rowNum);
+        }
+
+        if (!$street) {
+            $this->addRowError('StreetIsRequired', $rowNum);
+        }
+
+        if (!$postcode) {
+            $this->addRowError('PostCodeIsRequired', $rowNum);
+        }
 
         if (!$name) {
             $this->addRowError('NameIsRequired', $rowNum);
         }
 
-        if (!$duration) {
-            $this->addRowError('DurationIsRequired', $rowNum);
+        if (!$sourceCode) {
+            $this->addRowError('SourceCodeIsRequired', $rowNum);
         }
 
         if (isset($this->_validatedRows[$rowNum])) {

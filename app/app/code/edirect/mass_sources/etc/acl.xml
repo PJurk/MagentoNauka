@@ -4,9 +4,7 @@
   <acl>
     <resources>
       <resource id="Magento_Backend::admin">
-        <resource id="Magento_InventoryApi::source">
           <resource id="Edirect_MassSources::mass_sources" title="Mass Sources"/>
-        </resource>
       </resource>
     </resources>
   </acl>
