@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a873cce98744700cb0aaace9be10fc33",
+    "content-hash": "60c8f4758aeebb228b5907a43e279d42",
     "packages": [
         {
             "name": "amzn/amazon-pay-and-login-magento-2-module",
@@ -632,20 +632,30 @@
                 "ssl",
                 "tls"
             ],
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-04-08T08:27:21+00:00"
         },
         {
             "name": "composer/composer",
-            "version": "1.10.8",
+            "version": "1.10.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/composer.git",
-                "reference": "56e0e094478f30935e9128552188355fa9712291"
+                "reference": "83c3250093d5491600a822e176b107a945baf95a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/composer/zipball/56e0e094478f30935e9128552188355fa9712291",
-                "reference": "56e0e094478f30935e9128552188355fa9712291",
+                "url": "https://api.github.com/repos/composer/composer/zipball/83c3250093d5491600a822e176b107a945baf95a",
+                "reference": "83c3250093d5491600a822e176b107a945baf95a",
                 "shasum": ""
             },
             "require": {
@@ -712,7 +722,21 @@
                 "dependency",
                 "package"
             ],
-            "time": "2020-06-24T19:23:30+00:00"
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-16T10:57:00+00:00"
         },
         {
             "name": "composer/semver",
@@ -777,16 +801,16 @@
         },
         {
             "name": "composer/spdx-licenses",
-            "version": "1.5.3",
+            "version": "1.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/spdx-licenses.git",
-                "reference": "0c3e51e1880ca149682332770e25977c70cf9dae"
+                "reference": "6946f785871e2314c60b4524851f3702ea4f2223"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/0c3e51e1880ca149682332770e25977c70cf9dae",
-                "reference": "0c3e51e1880ca149682332770e25977c70cf9dae",
+                "url": "https://api.github.com/repos/composer/spdx-licenses/zipball/6946f785871e2314c60b4524851f3702ea4f2223",
+                "reference": "6946f785871e2314c60b4524851f3702ea4f2223",
                 "shasum": ""
             },
             "require": {
@@ -833,7 +857,21 @@
                 "spdx",
                 "validator"
             ],
-            "time": "2020-02-14T07:44:31+00:00"
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-15T15:35:07+00:00"
         },
         {
             "name": "composer/xdebug-handler",
@@ -877,6 +915,20 @@
                 "Xdebug",
                 "performance"
             ],
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-06-04T11:16:35+00:00"
         },
         {
@@ -910,1827 +962,6 @@
             "homepage": "https://github.com/container-interop/container-interop",
             "abandoned": "psr/container",
             "time": "2017-02-14T19:40:03+00:00"
-        },
-        {
-            "name": "creativestyle/creative-patterns",
-            "version": "v2.31.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/creative-patterns.git",
-                "reference": "95c57e6f2fcd0e0a1a3a408fbd34028c79222d9b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/creative-patterns/zipball/95c57e6f2fcd0e0a1a3a408fbd34028c79222d9b",
-                "reference": "95c57e6f2fcd0e0a1a3a408fbd34028c79222d9b",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Creativestyle\\CreativePatterns\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Pattern library",
-            "homepage": "https://creativestyle.de",
-            "time": "2019-07-31T12:43:29+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite",
-            "version": "v5.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/magesuite.git",
-                "reference": "adfb16a7fcf2eb0e85f3b0f7ea35d54b7cfa0b18"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/magesuite/zipball/adfb16a7fcf2eb0e85f3b0f7ea35d54b7cfa0b18",
-                "reference": "adfb16a7fcf2eb0e85f3b0f7ea35d54b7cfa0b18",
-                "shasum": ""
-            },
-            "require": {
-                "creativestyle/magesuite-brand-management": "^1.0.0",
-                "creativestyle/magesuite-cache": "^1.0.0",
-                "creativestyle/magesuite-category-hero": "^1.0.0",
-                "creativestyle/magesuite-clear-attributes": "^1.0.0",
-                "creativestyle/magesuite-cms-duplicate": "^2.0.0",
-                "creativestyle/magesuite-cms-product-backlink": "^1.0.0",
-                "creativestyle/magesuite-cms-tag-manager": "^1.0.0",
-                "creativestyle/magesuite-content-constructor": "^2.0.0",
-                "creativestyle/magesuite-content-constructor-admin": "^2.0.0",
-                "creativestyle/magesuite-content-constructor-asset": "^1.0.0",
-                "creativestyle/magesuite-content-constructor-category-page": "^1.0.0",
-                "creativestyle/magesuite-content-constructor-frontend": "^2.0.0",
-                "creativestyle/magesuite-content-constructor-remove-layout-validation": "^1.0.0",
-                "creativestyle/magesuite-css-minifier": "^1.0.0",
-                "creativestyle/magesuite-daily-deal": "^1.0.0",
-                "creativestyle/magesuite-defer-js": "^1.0.0",
-                "creativestyle/magesuite-elasticsuite-addons": "^1.0.0",
-                "creativestyle/magesuite-email-attachments": "^3.0.0",
-                "creativestyle/magesuite-extended-exception": "^1.0.0",
-                "creativestyle/magesuite-file-upload": "^1.0.0",
-                "creativestyle/magesuite-frontend": "^2.0.0",
-                "creativestyle/magesuite-gdpr": "^1.0.1",
-                "creativestyle/magesuite-google-api": "^1.0.0",
-                "creativestyle/magesuite-js-translation-fix": "^1.0.0",
-                "creativestyle/magesuite-maintenance-page": "^1.0.0",
-                "creativestyle/magesuite-opengraph": "^1.0.0",
-                "creativestyle/magesuite-pagination": "^1.0.0",
-                "creativestyle/magesuite-persistent-sitemap": "^1.0.0",
-                "creativestyle/magesuite-product-bestsellers-ranking": "^1.0.0",
-                "creativestyle/magesuite-product-positive-indicators": "^2.0.0",
-                "creativestyle/magesuite-sentry-io": "^1.0.0",
-                "creativestyle/magesuite-seo-canonical": "^1.0.0",
-                "creativestyle/magesuite-seo-hreflang": "^1.0.0",
-                "creativestyle/magesuite-soft-db-status-validation": "^1.0.0",
-                "creativestyle/magesuite-sorting": "^1.0.0",
-                "creativestyle/magesuite-thumbnail-remove": "^1.0.0",
-                "creativestyle/magesuite-translation-center": "^1.0.0",
-                "creativestyle/magesuite-url-regeneration": "^1.0.0",
-                "creativestyle/magesuite-url-rewrite": "^1.0.0",
-                "creativestyle/magesuite-url-rewrite-mass-actions": "^1.0.0",
-                "creativestyle/theme-creativeshop": "^8.0.0",
-                "smile/elasticsuite": "2.9.*"
-            },
-            "type": "metapackage",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "MageSuite main package",
-            "time": "2020-07-06T09:47:45+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-brand-management",
-            "version": "v1.2.9",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/brand-management.git",
-                "reference": "bd559e697daf41665e32bf3cb4f690959a2f0125"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/brand-management/zipball/bd559e697daf41665e32bf3cb4f690959a2f0125",
-                "reference": "bd559e697daf41665e32bf3cb4f690959a2f0125",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\BrandManagement\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Brand Management extension",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-07-06T06:48:02+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-cache",
-            "version": "v1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/cache.git",
-                "reference": "72a60cbc4feee895f616f002059542d4b2eedbbc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/cache/zipball/72a60cbc4feee895f616f002059542d4b2eedbbc",
-                "reference": "72a60cbc4feee895f616f002059542d4b2eedbbc",
-                "shasum": ""
-            },
-            "require": {
-                "ddtraceweb/monolog-parser": "^1.2"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\Cache\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "Improvements to built-in Magento 2 cache functionality",
-            "time": "2020-07-06T10:23:14+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-category",
-            "version": "v1.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/category.git",
-                "reference": "457de98495a78a9b1a7b66990b0182fa35fbad0d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/category/zipball/457de98495a78a9b1a7b66990b0182fa35fbad0d",
-                "reference": "457de98495a78a9b1a7b66990b0182fa35fbad0d",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\Category\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Enhancments to category functionality",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:53:37+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-category-hero",
-            "version": "v1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/category-hero.git",
-                "reference": "1f454182e23904cd8ca22ebb14476a2f99832e1c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/category-hero/zipball/1f454182e23904cd8ca22ebb14476a2f99832e1c",
-                "reference": "1f454182e23904cd8ca22ebb14476a2f99832e1c",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\CategoryHero\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Hero product for the category pages",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:13:25+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-category-icon",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/category-icon.git",
-                "reference": "25f9237766484d82c2e02c918d69162da159542e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/category-icon/zipball/25f9237766484d82c2e02c918d69162da159542e",
-                "reference": "25f9237766484d82c2e02c918d69162da159542e",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\CategoryIcon\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Category icon attribute along with helpers",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:55:41+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-clear-attributes",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/clear-attributes.git",
-                "reference": "59b4d10218361fc26e006e559c588f067bb22cf1"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/clear-attributes/zipball/59b4d10218361fc26e006e559c588f067bb22cf1",
-                "reference": "59b4d10218361fc26e006e559c588f067bb22cf1",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ClearAttributes\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Extension with recurring script that will remove all leftover attributes data.",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:27:29+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-cms-duplicate",
-            "version": "v2.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/cms-duplicate.git",
-                "reference": "cdf776388b0dcfcd022ae737dba223fe44a54b10"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/cms-duplicate/zipball/cdf776388b0dcfcd022ae737dba223fe44a54b10",
-                "reference": "cdf776388b0dcfcd022ae737dba223fe44a54b10",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\CmsDuplicate\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "Extension for duplicating CMS pages",
-            "time": "2020-04-02T11:23:50+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-cms-product-backlink",
-            "version": "v1.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/cms-product-backlink.git",
-                "reference": "23e4f1cd592c385623f430deec702e2d100cef5d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/cms-product-backlink/zipball/23e4f1cd592c385623f430deec702e2d100cef5d",
-                "reference": "23e4f1cd592c385623f430deec702e2d100cef5d",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\CmsProductBacklink\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Cms Product Backlink Extension",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-16T11:49:37+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-cms-tag-manager",
-            "version": "v1.0.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/cms-tag-manager.git",
-                "reference": "546f4e1836e908b845ffd643b24aa69c98e26fce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/cms-tag-manager/zipball/546f4e1836e908b845ffd643b24aa69c98e26fce",
-                "reference": "546f4e1836e908b845ffd643b24aa69c98e26fce",
-                "shasum": ""
-            },
-            "require": {
-                "creativestyle/magesuite-image-resize": "^1.0.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\CmsTagManager\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "CMS Tag Manager",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:33:31+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-common-blocks",
-            "version": "v1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/common-blocks.git",
-                "reference": "08e1e848fe6a3802a3add2390059a5e822a757ff"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/common-blocks/zipball/08e1e848fe6a3802a3add2390059a5e822a757ff",
-                "reference": "08e1e848fe6a3802a3add2390059a5e822a757ff",
-                "shasum": ""
-            },
-            "require": {
-                "magento/framework": "^101.0.0|^102.0.0",
-                "php": ">=5.5.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\CommonBlocks\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Extension with automatic script that will install common blocks used by each template e.g.: Columns in footer. USPs in topbar..",
-            "time": "2019-08-12T05:46:22+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-content-constructor",
-            "version": "v2.0.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/content-constructor.git",
-                "reference": "8df9223ecc6cef8dec839277d1d244d666b7b0d2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/content-constructor/zipball/8df9223ecc6cef8dec839277d1d244d666b7b0d2",
-                "reference": "8df9223ecc6cef8dec839277d1d244d666b7b0d2",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "MageSuite\\ContentConstructor\\": "src/",
-                    "MageSuite\\ContentConstructor\\Tests\\": "tests/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Content Constructor",
-            "homepage": "https://creativestyle.de",
-            "time": "2019-12-30T15:55:38+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-content-constructor-admin",
-            "version": "v2.14.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/content-constructor-admin.git",
-                "reference": "d0b6dcf4812f44e8c7246714ac241e7ceaba47e0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/content-constructor-admin/zipball/d0b6dcf4812f44e8c7246714ac241e7ceaba47e0",
-                "reference": "d0b6dcf4812f44e8c7246714ac241e7ceaba47e0",
-                "shasum": ""
-            },
-            "require": {
-                "creativestyle/creative-patterns": "^2.29.0"
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ContentConstructorAdmin\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Magento2 Content Constructor package",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-06-25T08:50:24+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-content-constructor-asset",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/content-constructor-asset.git",
-                "reference": "71e401b66ce47abf91cdd13a66799b61cebe1a08"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/content-constructor-asset/zipball/71e401b66ce47abf91cdd13a66799b61cebe1a08",
-                "reference": "71e401b66ce47abf91cdd13a66799b61cebe1a08",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ContentConstructorAsset\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Content Constructor Asset Provider",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:29:16+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-content-constructor-category-page",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/content-constructor-category-page.git",
-                "reference": "5499f30a3aa20b6d7b2f84f719518982c442c545"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/content-constructor-category-page/zipball/5499f30a3aa20b6d7b2f84f719518982c442c545",
-                "reference": "5499f30a3aa20b6d7b2f84f719518982c442c545",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ContentConstructorCategory\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Content Constructor cateogry page extension",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:18:03+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-content-constructor-frontend",
-            "version": "v2.21.15",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/content-constructor-frontend.git",
-                "reference": "78ea9fd66422b42fa69af84386a68ad06e1d02a9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/content-constructor-frontend/zipball/78ea9fd66422b42fa69af84386a68ad06e1d02a9",
-                "reference": "78ea9fd66422b42fa69af84386a68ad06e1d02a9",
-                "shasum": ""
-            },
-            "require": {
-                "creativestyle/magesuite-dynamic-directives": "^1.0.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ContentConstructorFrontend\\": "",
-                    "Creativestyle\\ContentConstructorFrontendExtension\\": "Legacy"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Content Constructor Frontend Magento 2 Extension",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-07-06T14:28:40+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-content-constructor-remove-layout-validation",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/content-constructor-remove-layout-validation.git",
-                "reference": "6755a426ea88cb65e51d58894d8f1d2d21066724"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/content-constructor-remove-layout-validation/zipball/6755a426ea88cb65e51d58894d8f1d2d21066724",
-                "reference": "6755a426ea88cb65e51d58894d8f1d2d21066724",
-                "shasum": ""
-            },
-            "type": "library",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ContentConstructorRemoveLayoutValidation\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Extension removes custom layout update validation introduced in Magento 2.3.4",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-01T08:28:36+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-css-minifier",
-            "version": "v1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/css-minifier.git",
-                "reference": "d05bda8d9d70cf233a5ed7f1d8ad9724fe765c15"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/css-minifier/zipball/d05bda8d9d70cf233a5ed7f1d8ad9724fe765c15",
-                "reference": "d05bda8d9d70cf233a5ed7f1d8ad9724fe765c15",
-                "shasum": ""
-            },
-            "require": {
-                "magento/framework": "^101.0.0|^102.0.0",
-                "matthiasmullie/minify": "^1.3",
-                "php": "~5.5.0|~5.6.0|~7.0.0|~7.1.0|~7.2.0|~7.3.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\CssMinifier\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Update default magento css minifier",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-05-06T21:42:47+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-daily-deal",
-            "version": "v1.13.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/daily-deal.git",
-                "reference": "de35a486d81bac4c56e81cae4734f999c74f1f5f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/daily-deal/zipball/de35a486d81bac4c56e81cae4734f999c74f1f5f",
-                "reference": "de35a486d81bac4c56e81cae4734f999c74f1f5f",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\DailyDeal\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Daily deal extension",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-07-02T09:10:04+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-defer-js",
-            "version": "v1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/defer-js.git",
-                "reference": "49a25b54370e683f38d9f90334657a2c833aef08"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/defer-js/zipball/49a25b54370e683f38d9f90334657a2c833aef08",
-                "reference": "49a25b54370e683f38d9f90334657a2c833aef08",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\DeferJs\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Defering JS",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:19:18+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-dynamic-directives",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/dynamic-directives.git",
-                "reference": "e19c2d84d7726b665c7876e3ae46bfa1a4f4653c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/dynamic-directives/zipball/e19c2d84d7726b665c7876e3ae46bfa1a4f4653c",
-                "reference": "e19c2d84d7726b665c7876e3ae46bfa1a4f4653c",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\DynamicDirectives\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "description": "Extension for dynamic directives",
-            "time": "2020-04-02T11:50:17+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-elasticsuite-addons",
-            "version": "v1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/elasticsuite-addons.git",
-                "reference": "92bf03e870fd8a732863c3414af395521f418216"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/elasticsuite-addons/zipball/92bf03e870fd8a732863c3414af395521f418216",
-                "reference": "92bf03e870fd8a732863c3414af395521f418216",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ElasticSuiteAddons\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "Addons for elasticsuite extension",
-            "time": "2020-04-02T11:20:26+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-email-attachments",
-            "version": "v3.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/email-attachments.git",
-                "reference": "fb051846f3e604d5e90c0a5b992248a816b130e5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/email-attachments/zipball/fb051846f3e604d5e90c0a5b992248a816b130e5",
-                "reference": "fb051846f3e604d5e90c0a5b992248a816b130e5",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\EmailAttachments\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "This extension adds PDF attachments to emails.",
-            "time": "2020-04-01T10:22:36+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-extended-exception",
-            "version": "v1.0.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/extended-exception.git",
-                "reference": "bad8f53204c4dffc98032506e3e85d9af611e3ee"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/extended-exception/zipball/bad8f53204c4dffc98032506e3e85d9af611e3ee",
-                "reference": "bad8f53204c4dffc98032506e3e85d9af611e3ee",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ExtendedException\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Overload defualt logging to pas an extra information like path, ip, cookies, session etc.",
-            "time": "2020-06-18T04:17:01+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-file-upload",
-            "version": "v1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/file-upload.git",
-                "reference": "15b004fdb7865b03fa398cb783b79bc44ed5e54f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/file-upload/zipball/15b004fdb7865b03fa398cb783b79bc44ed5e54f",
-                "reference": "15b004fdb7865b03fa398cb783b79bc44ed5e54f",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\FileUpload\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Adds possibility to upload additional types of files into media gallery.",
-            "time": "2020-04-02T11:24:14+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-frontend",
-            "version": "v2.5.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/frontend.git",
-                "reference": "d2f96d80e58866258543f9ec4894b4f6914402ad"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/frontend/zipball/d2f96d80e58866258543f9ec4894b4f6914402ad",
-                "reference": "d2f96d80e58866258543f9ec4894b4f6914402ad",
-                "shasum": ""
-            },
-            "require": {
-                "creativestyle/magesuite-image-optimization": "^1.0.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\Frontend\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Creativestyle Frontend Magento 2 Extension",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-06-18T07:18:59+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-gdpr",
-            "version": "v1.0.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/gdpr.git",
-                "reference": "67dffb1765301672c6dcd8c77fd0dbe279f348a9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/gdpr/zipball/67dffb1765301672c6dcd8c77fd0dbe279f348a9",
-                "reference": "67dffb1765301672c6dcd8c77fd0dbe279f348a9",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\Gdpr\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Extension for GDPR compliance",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-29T07:53:58+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-google-api",
-            "version": "v1.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/google-api.git",
-                "reference": "b9e7412df30b8152dcc0aed3efbb33a3e62420fa"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/google-api/zipball/b9e7412df30b8152dcc0aed3efbb33a3e62420fa",
-                "reference": "b9e7412df30b8152dcc0aed3efbb33a3e62420fa",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\GoogleApi\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Google API Extension",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:28:21+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-image-optimization",
-            "version": "v1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/image-optimization.git",
-                "reference": "b25ea660aa34b525139707ac8af35b05c309e541"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/image-optimization/zipball/b25ea660aa34b525139707ac8af35b05c309e541",
-                "reference": "b25ea660aa34b525139707ac8af35b05c309e541",
-                "shasum": ""
-            },
-            "require": {
-                "ps/image-optimizer": "~1.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ImageOptimization\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Helpers for images optimization",
-            "homepage": "https://creativestyle.de",
-            "time": "2019-10-01T12:33:52+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-image-resize",
-            "version": "v1.0.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/image-resize.git",
-                "reference": "f6db1af55fcb420e974331439ecb7e3c22887722"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/image-resize/zipball/f6db1af55fcb420e974331439ecb7e3c22887722",
-                "reference": "f6db1af55fcb420e974331439ecb7e3c22887722",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ImageResize\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Helpers for images resize",
-            "homepage": "https://creativestyle.de",
-            "time": "2019-12-05T06:28:00+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-js-translation-fix",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/js-translation-fix.git",
-                "reference": "e4f7387a9ef73164d240173fcf0a13ee4b94762e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/js-translation-fix/zipball/e4f7387a9ef73164d240173fcf0a13ee4b94762e",
-                "reference": "e4f7387a9ef73164d240173fcf0a13ee4b94762e",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\JsFixTranslation\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Fixes JS translation gathering for minified assets",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:18:33+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-maintenance-page",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/maintenance-page.git",
-                "reference": "d2f684809de018f7736e508585da78a5b3e722f7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/maintenance-page/zipball/d2f684809de018f7736e508585da78a5b3e722f7",
-                "reference": "d2f684809de018f7736e508585da78a5b3e722f7",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\MaintenancePage\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Maintenance page",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:21:33+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-media",
-            "version": "v1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/media.git",
-                "reference": "d946f540c2af8503814b3fbc4f4eb4fec2a1a75d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/media/zipball/d946f540c2af8503814b3fbc4f4eb4fec2a1a75d",
-                "reference": "d946f540c2af8503814b3fbc4f4eb4fec2a1a75d",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\Media\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Set of tools for media files manipulation",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:53:16+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-navigation",
-            "version": "v1.2.6",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/navigation.git",
-                "reference": "8a508d0a6f71ff45ff303400fdf8cc35d8912dfb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/navigation/zipball/8a508d0a6f71ff45ff303400fdf8cc35d8912dfb",
-                "reference": "8a508d0a6f71ff45ff303400fdf8cc35d8912dfb",
-                "shasum": ""
-            },
-            "require": {
-                "creativestyle/magesuite-category": "^1.0.0",
-                "creativestyle/magesuite-media": "^1.0.0",
-                "creativestyle/magesuite-product-tile": "^1.0.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\Navigation\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Backend logic for magesuite navigation",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-22T07:25:54+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-opengraph",
-            "version": "v1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/opengraph.git",
-                "reference": "fe9234811b20d276ad5da695f17de786d44a3c1d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/opengraph/zipball/fe9234811b20d276ad5da695f17de786d44a3c1d",
-                "reference": "fe9234811b20d276ad5da695f17de786d44a3c1d",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\Opengraph\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Opengraph Extension",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:27:54+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-pagination",
-            "version": "v1.1.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/pagination.git",
-                "reference": "b0cc415461815a16928bf64a05ab5ecd4ff894fc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/pagination/zipball/b0cc415461815a16928bf64a05ab5ecd4ff894fc",
-                "reference": "b0cc415461815a16928bf64a05ab5ecd4ff894fc",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\Pagination\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "MageSuite Pagination",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:22:56+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-persistent-sitemap",
-            "version": "v1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/persistent-sitemap.git",
-                "reference": "c34faca046ba0990bfbf129a9587bed2eb9bd861"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/persistent-sitemap/zipball/c34faca046ba0990bfbf129a9587bed2eb9bd861",
-                "reference": "c34faca046ba0990bfbf129a9587bed2eb9bd861",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\PersistentSitemap\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Change default sitemap directory",
-            "time": "2020-04-02T11:25:59+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-product-bestsellers-ranking",
-            "version": "v1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/product-bestsellers-ranking.git",
-                "reference": "c3037abc4c82b6a8b1d41d170b208fc7d3b1813a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/product-bestsellers-ranking/zipball/c3037abc4c82b6a8b1d41d170b208fc7d3b1813a",
-                "reference": "c3037abc4c82b6a8b1d41d170b208fc7d3b1813a",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ProductBestsellersRanking\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Product Bestsellers Ranking Extension",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:32:00+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-product-details-reorder",
-            "version": "v1.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/product-details-reorder.git",
-                "reference": "bcd67627b68e349518f5f20292bc552c53d8502d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/product-details-reorder/zipball/bcd67627b68e349518f5f20292bc552c53d8502d",
-                "reference": "bcd67627b68e349518f5f20292bc552c53d8502d",
-                "shasum": ""
-            },
-            "require": {
-                "php": "~5.6.0|~7.0.0|~7.1.0|~7.2.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ProductDetailsReorder\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "MageSuite Product Details Reorder",
-            "homepage": "https://creativestyle.de",
-            "time": "2019-06-01T09:44:57+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-product-positive-indicators",
-            "version": "v2.4.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/product-positive-indicators.git",
-                "reference": "667be332fc5f85c87a39f7686565e05844f6871d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/product-positive-indicators/zipball/667be332fc5f85c87a39f7686565e05844f6871d",
-                "reference": "667be332fc5f85c87a39f7686565e05844f6871d",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ProductPositiveIndicators\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Product positive indicators extension",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:32:25+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-product-tile",
-            "version": "v1.16.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/product-tile.git",
-                "reference": "c548315f20e321e48f668887d709b4a7d8bdf6a9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/product-tile/zipball/c548315f20e321e48f668887d709b4a7d8bdf6a9",
-                "reference": "c548315f20e321e48f668887d709b4a7d8bdf6a9",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ProductTile\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Extensible product tile",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-07-07T09:05:59+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-products-renderer",
-            "version": "v2.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/products-renderer.git",
-                "reference": "28ad975ef00ed4ad18779d695869a78d3dfbf809"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/products-renderer/zipball/28ad975ef00ed4ad18779d695869a78d3dfbf809",
-                "reference": "28ad975ef00ed4ad18779d695869a78d3dfbf809",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.6"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ProductsRenderer\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "MageSuite Products Renderer",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-16T09:09:28+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-sentry-io",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/sentry-io.git",
-                "reference": "9db00c5d35c295e75b6284dc781f105ccd85a3bc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/sentry-io/zipball/9db00c5d35c295e75b6284dc781f105ccd85a3bc",
-                "reference": "9db00c5d35c295e75b6284dc781f105ccd85a3bc",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\SentryIo\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "MageSuite Sentry Io",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:22:00+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-seo-canonical",
-            "version": "v1.1.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/seo-canonical.git",
-                "reference": "82fc63818106da1ce7c0dab05c18c5450f0d1f81"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/seo-canonical/zipball/82fc63818106da1ce7c0dab05c18c5450f0d1f81",
-                "reference": "82fc63818106da1ce7c0dab05c18c5450f0d1f81",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\SeoCanonical\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "time": "2020-05-04T14:01:24+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-seo-hreflang",
-            "version": "v1.0.11",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/seo-hreflang.git",
-                "reference": "35db4204aad841f2ce70959f8b4c18efae943542"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/seo-hreflang/zipball/35db4204aad841f2ce70959f8b4c18efae943542",
-                "reference": "35db4204aad841f2ce70959f8b4c18efae943542",
-                "shasum": ""
-            },
-            "require": {
-                "magento/framework": "^101.0.0|^102.0.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\SeoHreflang\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "time": "2020-07-06T07:53:16+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-shipping-addons",
-            "version": "v1.0.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/shipping-addons.git",
-                "reference": "e72bae979353011e8c2e85a289d42471db1659eb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/shipping-addons/zipball/e72bae979353011e8c2e85a289d42471db1659eb",
-                "reference": "e72bae979353011e8c2e85a289d42471db1659eb",
-                "shasum": ""
-            },
-            "require": {
-                "magento/framework": "^101.0.0|^102.0.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ShippingAddons\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0",
-                "AFL-3.0"
-            ],
-            "time": "2020-06-01T09:48:29+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-soft-db-status-validation",
-            "version": "v1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/soft-db-status-validation.git",
-                "reference": "71cd789ecbf0426cd79111acb41efb64803bddc0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/soft-db-status-validation/zipball/71cd789ecbf0426cd79111acb41efb64803bddc0",
-                "reference": "71cd789ecbf0426cd79111acb41efb64803bddc0",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\SoftDbStatusValidation\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Makes the db (schema) validation silently log error instead of throwing critical exception",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:25:20+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-sorting",
-            "version": "v1.1.7",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/sorting.git",
-                "reference": "56467f169e596e3bd05d193a5662f696c28f5e26"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/sorting/zipball/56467f169e596e3bd05d193a5662f696c28f5e26",
-                "reference": "56467f169e596e3bd05d193a5662f696c28f5e26",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\Sorting\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "Extension merges sorting field select and direction links into one select field.",
-            "time": "2020-04-02T11:35:01+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-theme-helpers",
-            "version": "v1.6.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/theme-helpers.git",
-                "reference": "778887a1f75a456f2412b27fc86364af720de59e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/theme-helpers/zipball/778887a1f75a456f2412b27fc86364af720de59e",
-                "reference": "778887a1f75a456f2412b27fc86364af720de59e",
-                "shasum": ""
-            },
-            "require": {
-                "creativestyle/magesuite-category-icon": "^1.0.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ThemeHelpers\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Blocks and helpers required by base theme",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-04-02T11:55:19+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-thumbnail-remove",
-            "version": "v1.0.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/thumbnail-remove.git",
-                "reference": "829defa1777221a0981c6b7deaa9eafadadb2157"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/thumbnail-remove/zipball/829defa1777221a0981c6b7deaa9eafadadb2157",
-                "reference": "829defa1777221a0981c6b7deaa9eafadadb2157",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\ThumbnailRemove\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "Extension that allows to remove thumbnails generated by lazy resize extension trough REST API",
-            "time": "2020-04-24T07:29:17+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-translation-center",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/translation-center.git",
-                "reference": "e93a8383c8901576eb44eddeb8345db6885368ce"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/translation-center/zipball/e93a8383c8901576eb44eddeb8345db6885368ce",
-                "reference": "e93a8383c8901576eb44eddeb8345db6885368ce",
-                "shasum": ""
-            },
-            "require": {
-                "google/apiclient": "^2.0",
-                "mikey179/vfsstream": "^1.3"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\TranslationCenter\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "Translation Center extension for Magento 2",
-            "time": "2020-06-17T14:16:39+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-url-regeneration",
-            "version": "v1.1.4",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/url-regeneration.git",
-                "reference": "11507d1736f875179dfb6c2520bf1096e0766acb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/url-regeneration/zipball/11507d1736f875179dfb6c2520bf1096e0766acb",
-                "reference": "11507d1736f875179dfb6c2520bf1096e0766acb",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\UrlRegeneration\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "time": "2020-03-05T12:12:01+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-url-rewrite",
-            "version": "v1.0.2",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/url-rewrite.git",
-                "reference": "9854978ca50893aa923bac46eab391b9b376b9bc"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/url-rewrite/zipball/9854978ca50893aa923bac46eab391b9b376b9bc",
-                "reference": "9854978ca50893aa923bac46eab391b9b376b9bc",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\UrlRewrite\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "time": "2019-07-15T09:00:54+00:00"
-        },
-        {
-            "name": "creativestyle/magesuite-url-rewrite-mass-actions",
-            "version": "v1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/url-rewrite-mass-actions.git",
-                "reference": "ebf2990f3aaecd67c83dda8bd6d11ba2375d3861"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/url-rewrite-mass-actions/zipball/ebf2990f3aaecd67c83dda8bd6d11ba2375d3861",
-                "reference": "ebf2990f3aaecd67c83dda8bd6d11ba2375d3861",
-                "shasum": ""
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "MageSuite\\UrlRewriteMassActions\\": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "description": "Adds mass actions to url rewrite grid",
-            "time": "2020-04-02T11:27:02+00:00"
-        },
-        {
-            "name": "creativestyle/theme-creativeshop",
-            "version": "v8.14.13",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/magesuite/theme-creativeshop.git",
-                "reference": "90fee7f01ae7e1d9544bc9eb205b6038d4549d84"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/magesuite/theme-creativeshop/zipball/90fee7f01ae7e1d9544bc9eb205b6038d4549d84",
-                "reference": "90fee7f01ae7e1d9544bc9eb205b6038d4549d84",
-                "shasum": ""
-            },
-            "require": {
-                "creativestyle/magesuite-common-blocks": "^1.0.0",
-                "creativestyle/magesuite-navigation": "^1.0.0",
-                "creativestyle/magesuite-product-details-reorder": "^1.0.0",
-                "creativestyle/magesuite-product-tile": "^1.0.0",
-                "creativestyle/magesuite-products-renderer": "^2.0.0",
-                "creativestyle/magesuite-shipping-addons": "^1.0.0",
-                "creativestyle/magesuite-theme-helpers": "^1.0.0",
-                "magento/theme-frontend-blank": "^100.2.0"
-            },
-            "type": "library",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "description": "Creativeshop Magento Theme",
-            "homepage": "https://creativestyle.de",
-            "time": "2020-07-09T07:40:03+00:00"
-        },
-        {
-            "name": "ddtraceweb/monolog-parser",
-            "version": "1.2.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ddtraceweb/monolog-parser.git",
-                "reference": "1aa1a4af21c28796d89adacac096bb370b73a42b"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ddtraceweb/monolog-parser/zipball/1aa1a4af21c28796d89adacac096bb370b73a42b",
-                "reference": "1aa1a4af21c28796d89adacac096bb370b73a42b",
-                "shasum": ""
-            },
-            "require": {
-                "monolog/monolog": "1.*"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "3.7.*"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Dubture": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Robert Gruendler",
-                    "email": "r.gruendler@gmail.com"
-                }
-            ],
-            "description": "A parser for monolog log entries",
-            "time": "2015-06-25T08:36:59+00:00"
         },
         {
             "name": "donatj/phpuseragentparser",
@@ -2780,6 +1011,16 @@
                 "parser",
                 "user agent",
                 "useragent"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.paypal.me/donatj/15",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/donatj",
+                    "type": "github"
+                }
             ],
             "time": "2020-04-07T15:47:30+00:00"
         },
@@ -3123,206 +1364,6 @@
             ],
             "description": "Fork of guzzle/RingPHP (abandoned) to be used with elasticsearch-php",
             "time": "2020-02-14T23:51:21+00:00"
-        },
-        {
-            "name": "firebase/php-jwt",
-            "version": "v5.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/firebase/php-jwt.git",
-                "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/feb0e820b8436873675fd3aca04f3728eb2185cb",
-                "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": ">=4.8 <=9"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Firebase\\JWT\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Neuman Vong",
-                    "email": "neuman+pear@twilio.com",
-                    "role": "Developer"
-                },
-                {
-                    "name": "Anant Narayanan",
-                    "email": "anant@php.net",
-                    "role": "Developer"
-                }
-            ],
-            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
-            "homepage": "https://github.com/firebase/php-jwt",
-            "keywords": [
-                "jwt",
-                "php"
-            ],
-            "time": "2020-03-25T18:49:23+00:00"
-        },
-        {
-            "name": "google/apiclient",
-            "version": "v2.5.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/googleapis/google-api-php-client.git",
-                "reference": "9ab9cc07f66e2c7274ea2753f102ae24d1271410"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client/zipball/9ab9cc07f66e2c7274ea2753f102ae24d1271410",
-                "reference": "9ab9cc07f66e2c7274ea2753f102ae24d1271410",
-                "shasum": ""
-            },
-            "require": {
-                "firebase/php-jwt": "~2.0||~3.0||~4.0||~5.0",
-                "google/apiclient-services": "~0.13",
-                "google/auth": "^1.9",
-                "guzzlehttp/guzzle": "~5.3.1||~6.0",
-                "guzzlehttp/psr7": "^1.2",
-                "monolog/monolog": "^1.17|^2.0",
-                "php": ">=5.4",
-                "phpseclib/phpseclib": "~0.3.10||~2.0"
-            },
-            "require-dev": {
-                "cache/filesystem-adapter": "^0.3.2",
-                "dealerdirect/phpcodesniffer-composer-installer": "^0.5.0",
-                "phpcompatibility/php-compatibility": "^9.2",
-                "phpunit/phpunit": "^4.8|^5.0",
-                "squizlabs/php_codesniffer": "~2.3",
-                "symfony/css-selector": "~2.1",
-                "symfony/dom-crawler": "~2.1"
-            },
-            "suggest": {
-                "cache/filesystem-adapter": "For caching certs and tokens (using Google_Client::setCache)"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "2.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "Google_": "src/"
-                },
-                "classmap": [
-                    "src/Google/Service/"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Client library for Google APIs",
-            "homepage": "http://developers.google.com/api-client-library/php",
-            "keywords": [
-                "google"
-            ],
-            "time": "2020-05-26T22:29:38+00:00"
-        },
-        {
-            "name": "google/apiclient-services",
-            "version": "v0.139",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/googleapis/google-api-php-client-services.git",
-                "reference": "84e99f792cae7bd92b8b54c75b0ad3502d628db6"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-api-php-client-services/zipball/84e99f792cae7bd92b8b54c75b0ad3502d628db6",
-                "reference": "84e99f792cae7bd92b8b54c75b0ad3502d628db6",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.4"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.8|^5"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Google_Service_": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Client library for Google APIs",
-            "homepage": "http://developers.google.com/api-client-library/php",
-            "keywords": [
-                "google"
-            ],
-            "time": "2020-06-08T00:24:31+00:00"
-        },
-        {
-            "name": "google/auth",
-            "version": "v1.10.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/googleapis/google-auth-library-php.git",
-                "reference": "077d6ae98d550161d3b2a0ba283bdce785c74d85"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/googleapis/google-auth-library-php/zipball/077d6ae98d550161d3b2a0ba283bdce785c74d85",
-                "reference": "077d6ae98d550161d3b2a0ba283bdce785c74d85",
-                "shasum": ""
-            },
-            "require": {
-                "firebase/php-jwt": "~2.0|~3.0|~4.0|~5.0",
-                "guzzlehttp/guzzle": "^5.3.1|^6.2.1|^7.0",
-                "guzzlehttp/psr7": "^1.2",
-                "php": ">=5.4",
-                "psr/cache": "^1.0",
-                "psr/http-message": "^1.0"
-            },
-            "require-dev": {
-                "guzzlehttp/promises": "0.1.1|^1.3",
-                "kelvinmo/simplejwt": "^0.2.5",
-                "phpseclib/phpseclib": "^2",
-                "phpunit/phpunit": "^4.8.36|^5.7",
-                "sebastian/comparator": ">=1.2.3",
-                "squizlabs/php_codesniffer": "^3.5"
-            },
-            "suggest": {
-                "phpseclib/phpseclib": "May be used in place of OpenSSL for signing strings or for token management. Please require version ^2."
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Google\\Auth\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "Apache-2.0"
-            ],
-            "description": "Google Auth Library for PHP",
-            "homepage": "http://github.com/google/google-auth-library-php",
-            "keywords": [
-                "Authentication",
-                "google",
-                "oauth2"
-            ],
-            "time": "2020-07-08T19:11:36+00:00"
         },
         {
             "name": "google/recaptcha",
@@ -4363,6 +2404,12 @@
                 "BSD-3-Clause"
             ],
             "description": "Replace zendframework and zfcampus packages with their Laminas Project equivalents.",
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
             "time": "2020-05-20T13:45:39+00:00"
         },
         {
@@ -4736,16 +2783,16 @@
         },
         {
             "name": "laminas/laminas-form",
-            "version": "2.14.6",
+            "version": "2.15.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-form.git",
-                "reference": "c19b62ed8394bcf2038ab3f51a49b7d0ef4e1700"
+                "reference": "359cd372c565e18a17f32ccfeacdf21bba091ce2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laminas/laminas-form/zipball/c19b62ed8394bcf2038ab3f51a49b7d0ef4e1700",
-                "reference": "c19b62ed8394bcf2038ab3f51a49b7d0ef4e1700",
+                "url": "https://api.github.com/repos/laminas/laminas-form/zipball/359cd372c565e18a17f32ccfeacdf21bba091ce2",
+                "reference": "359cd372c565e18a17f32ccfeacdf21bba091ce2",
                 "shasum": ""
             },
             "require": {
@@ -4788,8 +2835,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.14.x-dev",
-                    "dev-develop": "2.15.x-dev"
+                    "dev-master": "2.15.x-dev",
+                    "dev-develop": "2.16.x-dev"
                 },
                 "laminas": {
                     "component": "Laminas\\Form",
@@ -4814,7 +2861,13 @@
                 "form",
                 "laminas"
             ],
-            "time": "2020-06-22T20:17:02+00:00"
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
+            ],
+            "time": "2020-07-14T13:53:27+00:00"
         },
         {
             "name": "laminas/laminas-http",
@@ -4871,6 +2924,12 @@
                 "http",
                 "http client",
                 "laminas"
+            ],
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
             ],
             "time": "2020-06-23T15:14:37+00:00"
         },
@@ -5319,6 +3378,12 @@
             "keywords": [
                 "laminas",
                 "mail"
+            ],
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
             ],
             "time": "2020-06-30T20:17:23+00:00"
         },
@@ -6311,6 +4376,12 @@
                 "autoloading",
                 "laminas",
                 "zf"
+            ],
+            "funding": [
+                {
+                    "url": "https://funding.communitybridge.org/projects/laminas-project",
+                    "type": "community_bridge"
+                }
             ],
             "time": "2020-05-20T16:45:56+00:00"
         },
@@ -15617,161 +13688,6 @@
             "time": "2020-05-19T23:25:07+00:00"
         },
         {
-            "name": "matthiasmullie/minify",
-            "version": "1.3.63",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/matthiasmullie/minify.git",
-                "reference": "9ba1b459828adc13430f4dd6c49dae4950dc4117"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/9ba1b459828adc13430f4dd6c49dae4950dc4117",
-                "reference": "9ba1b459828adc13430f4dd6c49dae4950dc4117",
-                "shasum": ""
-            },
-            "require": {
-                "ext-pcre": "*",
-                "matthiasmullie/path-converter": "~1.1",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "friendsofphp/php-cs-fixer": "~2.0",
-                "matthiasmullie/scrapbook": "~1.0",
-                "phpunit/phpunit": "~4.8"
-            },
-            "suggest": {
-                "psr/cache-implementation": "Cache implementation to use with Minify::cache"
-            },
-            "bin": [
-                "bin/minifycss",
-                "bin/minifyjs"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "MatthiasMullie\\Minify\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Matthias Mullie",
-                    "email": "minify@mullie.eu",
-                    "homepage": "http://www.mullie.eu",
-                    "role": "Developer"
-                }
-            ],
-            "description": "CSS & JavaScript minifier, in PHP. Removes whitespace, strips comments, combines files (incl. @import statements and small assets in CSS files), and optimizes/shortens a few common programming patterns.",
-            "homepage": "http://www.minifier.org",
-            "keywords": [
-                "JS",
-                "css",
-                "javascript",
-                "minifier",
-                "minify"
-            ],
-            "time": "2020-01-21T20:21:08+00:00"
-        },
-        {
-            "name": "matthiasmullie/path-converter",
-            "version": "1.1.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/matthiasmullie/path-converter.git",
-                "reference": "e7d13b2c7e2f2268e1424aaed02085518afa02d9"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/path-converter/zipball/e7d13b2c7e2f2268e1424aaed02085518afa02d9",
-                "reference": "e7d13b2c7e2f2268e1424aaed02085518afa02d9",
-                "shasum": ""
-            },
-            "require": {
-                "ext-pcre": "*",
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "~4.8"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "MatthiasMullie\\PathConverter\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Matthias Mullie",
-                    "email": "pathconverter@mullie.eu",
-                    "homepage": "http://www.mullie.eu",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Relative path converter",
-            "homepage": "http://github.com/matthiasmullie/path-converter",
-            "keywords": [
-                "converter",
-                "path",
-                "paths",
-                "relative"
-            ],
-            "time": "2019-02-05T23:41:09+00:00"
-        },
-        {
-            "name": "mikey179/vfsstream",
-            "version": "v1.6.8",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/bovigo/vfsStream.git",
-                "reference": "231c73783ebb7dd9ec77916c10037eff5a2b6efe"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/bovigo/vfsStream/zipball/231c73783ebb7dd9ec77916c10037eff5a2b6efe",
-                "reference": "231c73783ebb7dd9ec77916c10037eff5a2b6efe",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^4.5|^5.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.6.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-0": {
-                    "org\\bovigo\\vfs\\": "src/main/php"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD-3-Clause"
-            ],
-            "authors": [
-                {
-                    "name": "Frank Kleine",
-                    "homepage": "http://frankkleine.de/",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Virtual file system to mock the real file system in unit tests.",
-            "homepage": "http://vfs.bovigo.org/",
-            "time": "2019-10-30T15:31:00+00:00"
-        },
-        {
             "name": "monolog/monolog",
             "version": "1.25.4",
             "source": {
@@ -15845,6 +13761,16 @@
                 "log",
                 "logging",
                 "psr-3"
+            ],
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/monolog/monolog",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-05-22T07:31:27+00:00"
         },
@@ -16436,102 +14362,21 @@
                 "x.509",
                 "x509"
             ],
+            "funding": [
+                {
+                    "url": "https://github.com/terrafrost",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/phpseclib",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpseclib/phpseclib",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-07-08T09:08:33+00:00"
-        },
-        {
-            "name": "ps/image-optimizer",
-            "version": "1.2.3",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/psliwa/image-optimizer.git",
-                "reference": "0c973fc96fb45c1a4f45b010be20c98b6ec00d1e"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/psliwa/image-optimizer/zipball/0c973fc96fb45c1a4f45b010be20c98b6ec00d1e",
-                "reference": "0c973fc96fb45c1a4f45b010be20c98b6ec00d1e",
-                "shasum": ""
-            },
-            "require": {
-                "psr/log": "^1.0",
-                "symfony/options-resolver": "~2.1 | ~3.0 | ~4.0",
-                "symfony/process": "~2.0 | ~3.0 | ~4.0"
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^5.0"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "ImageOptimizer": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Piotr Sliwa",
-                    "email": "peter.pl7@gmail.com"
-                }
-            ],
-            "description": "Image optimization / compression library. This library is able to optimize png, jpg and gif files in very easy and handy way. It uses optipng, pngquant, pngcrush, pngout, gifsicle, jpegoptim and jpegtran tools.",
-            "keywords": [
-                "compression",
-                "image",
-                "image optimizer",
-                "jpegoptim",
-                "optimization",
-                "optipng"
-            ],
-            "time": "2019-11-14T20:21:13+00:00"
-        },
-        {
-            "name": "psr/cache",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/php-fig/cache.git",
-                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/cache/zipball/d11b50ad223250cf17b86e38383413f5a6764bf8",
-                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.3.0"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.0.x-dev"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Psr\\Cache\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "PHP-FIG",
-                    "homepage": "http://www.php-fig.org/"
-                }
-            ],
-            "description": "Common interface for caching libraries",
-            "keywords": [
-                "cache",
-                "psr",
-                "psr-6"
-            ],
-            "time": "2016-08-06T20:24:11+00:00"
         },
         {
             "name": "psr/container",
@@ -16894,6 +14739,16 @@
                 "parser",
                 "validator"
             ],
+            "funding": [
+                {
+                    "url": "https://github.com/Seldaek",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/seld/jsonlint",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-04-30T19:05:18+00:00"
         },
         {
@@ -16939,124 +14794,6 @@
                 "phar"
             ],
             "time": "2020-07-07T18:42:57+00:00"
-        },
-        {
-            "name": "smile/elasticsuite",
-            "version": "2.9.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/Smile-SA/elasticsuite.git",
-                "reference": "c0362274de7d218aa7cf7c53650e300204823014"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/Smile-SA/elasticsuite/zipball/c0362274de7d218aa7cf7c53650e300204823014",
-                "reference": "c0362274de7d218aa7cf7c53650e300204823014",
-                "shasum": ""
-            },
-            "require": {
-                "elasticsearch/elasticsearch": "~6.7|~7.2",
-                "magento/framework": ">=102.0.5",
-                "magento/magento-composer-installer": "*",
-                "magento/module-backend": ">=101.0.5",
-                "magento/module-catalog": ">=103.0.5",
-                "magento/module-catalog-graph-ql": ">=100.3.5",
-                "magento/module-catalog-search": ">=101.0.5",
-                "magento/module-inventory-indexer": ">=1.0.3",
-                "magento/module-inventory-sales": ">=1.0.3",
-                "magento/module-inventory-sales-api": ">=1.0.3",
-                "magento/module-store": ">=101.0.5"
-            },
-            "replace": {
-                "smile/module-elasticsuite-admin-notification": "self.version",
-                "smile/module-elasticsuite-analytics": "self.version",
-                "smile/module-elasticsuite-catalog": "self.version",
-                "smile/module-elasticsuite-catalog-graph-ql": "self.version",
-                "smile/module-elasticsuite-catalog-optimizer": "self.version",
-                "smile/module-elasticsuite-catalog-rule": "self.version",
-                "smile/module-elasticsuite-core": "self.version",
-                "smile/module-elasticsuite-indices": "self.version",
-                "smile/module-elasticsuite-swatches": "self.version",
-                "smile/module-elasticsuite-thesaurus": "self.version",
-                "smile/module-elasticsuite-tracker": "self.version",
-                "smile/module-elasticsuite-virtual-category": "self.version"
-            },
-            "require-dev": {
-                "smile/magento2-smilelab-quality-suite": "~2.1.0"
-            },
-            "type": "magento2-component",
-            "extra": {
-                "map": [
-                    [
-                        "src/lib/web/fonts/elasticsuite",
-                        "lib/web/fonts/elasticsuite"
-                    ]
-                ],
-                "branch-alias": {
-                    "dev-master": "2.10.x-dev"
-                }
-            },
-            "autoload": {
-                "files": [
-                    "src/module-elasticsuite-core/registration.php",
-                    "src/module-elasticsuite-admin-notification/registration.php",
-                    "src/module-elasticsuite-analytics/registration.php",
-                    "src/module-elasticsuite-catalog/registration.php",
-                    "src/module-elasticsuite-catalog-graph-ql/registration.php",
-                    "src/module-elasticsuite-catalog-optimizer/registration.php",
-                    "src/module-elasticsuite-catalog-rule/registration.php",
-                    "src/module-elasticsuite-indices/registration.php",
-                    "src/module-elasticsuite-swatches/registration.php",
-                    "src/module-elasticsuite-thesaurus/registration.php",
-                    "src/module-elasticsuite-tracker/registration.php",
-                    "src/module-elasticsuite-virtual-category/registration.php"
-                ],
-                "psr-4": {
-                    "Smile\\ElasticsuiteCore\\": "src/module-elasticsuite-core",
-                    "Smile\\ElasticsuiteAdminNotification\\": "src/module-elasticsuite-admin-notification",
-                    "Smile\\ElasticsuiteAnalytics\\": "src/module-elasticsuite-analytics",
-                    "Smile\\ElasticsuiteCatalog\\": "src/module-elasticsuite-catalog",
-                    "Smile\\ElasticsuiteCatalogGraphQl\\": "src/module-elasticsuite-catalog-graph-ql",
-                    "Smile\\ElasticsuiteCatalogOptimizer\\": "src/module-elasticsuite-catalog-optimizer",
-                    "Smile\\ElasticsuiteCatalogRule\\": "src/module-elasticsuite-catalog-rule",
-                    "Smile\\ElasticsuiteIndices\\": "src/module-elasticsuite-indices",
-                    "Smile\\ElasticsuiteSwatches\\": "src/module-elasticsuite-swatches",
-                    "Smile\\ElasticsuiteThesaurus\\": "src/module-elasticsuite-thesaurus",
-                    "Smile\\ElasticsuiteTracker\\": "src/module-elasticsuite-tracker",
-                    "Smile\\ElasticsuiteVirtualCategory\\": "src/module-elasticsuite-virtual-category"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "OSL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Romain Ruaud",
-                    "email": "romain.ruaud@smile.fr"
-                },
-                {
-                    "name": "Richard Bayet",
-                    "email": "richard.bayet@smile.fr"
-                },
-                {
-                    "name": "Aurélien FOUCRET",
-                    "email": "aurelien.foucret@smile.fr"
-                }
-            ],
-            "description": "Magento 2 merchandising and search engine built on ElasticSearch ",
-            "homepage": "https://github.com/Smile-SA/elasticsuite",
-            "keywords": [
-                "core",
-                "elasticsearch",
-                "graphql",
-                "magento",
-                "magento2",
-                "merchandising",
-                "search",
-                "setup"
-            ],
-            "time": "2020-06-11T07:45:37+00:00"
         },
         {
             "name": "spomky-labs/otphp",
@@ -17197,6 +14934,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-30T20:06:45+00:00"
         },
         {
@@ -17250,6 +15001,20 @@
             ],
             "description": "Symfony CssSelector Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-03-27T16:54:36+00:00"
         },
         {
@@ -17300,6 +15065,20 @@
             ],
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-06-06T08:49:21+00:00"
         },
         {
@@ -17370,6 +15149,20 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-20T08:37:50+00:00"
         },
         {
@@ -17432,6 +15225,20 @@
                 "interoperability",
                 "standards"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-07-06T13:19:58+00:00"
         },
         {
@@ -17482,6 +15289,20 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-30T18:50:54+00:00"
         },
         {
@@ -17531,6 +15352,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-03-27T16:54:36+00:00"
         },
         {
@@ -17590,6 +15425,20 @@
                 "symfony",
                 "words"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-20T17:43:50+00:00"
         },
         {
@@ -17644,20 +15493,34 @@
                 "configuration",
                 "options"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-23T12:09:32+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
-                "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d"
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
-                "reference": "2edd75b8b35d62fd3eeabba73b26b8f1f60ce13d",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/1c302646f6efc070cd46856e600e5e0684d6b454",
+                "reference": "1c302646f6efc070cd46856e600e5e0684d6b454",
                 "shasum": ""
             },
             "require": {
@@ -17669,7 +15532,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -17706,20 +15569,34 @@
                 "polyfill",
                 "portable"
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-                "reference": "6e4dbcf5e81eba86e36731f94fe56b1726835846"
+                "reference": "b740103edbdcc39602239ee8860f0f45a8eb9aa5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/6e4dbcf5e81eba86e36731f94fe56b1726835846",
-                "reference": "6e4dbcf5e81eba86e36731f94fe56b1726835846",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/b740103edbdcc39602239ee8860f0f45a8eb9aa5",
+                "reference": "b740103edbdcc39602239ee8860f0f45a8eb9aa5",
                 "shasum": ""
             },
             "require": {
@@ -17731,7 +15608,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -17770,25 +15647,40 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
-                "reference": "a57f8161502549a742a63c09f0a604997bf47027"
+                "reference": "bc6549d068d0160e0f10f7a5a23c7d1406b95ebe"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/a57f8161502549a742a63c09f0a604997bf47027",
-                "reference": "a57f8161502549a742a63c09f0a604997bf47027",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-idn/zipball/bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
+                "reference": "bc6549d068d0160e0f10f7a5a23c7d1406b95ebe",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "symfony/polyfill-mbstring": "^1.3",
+                "symfony/polyfill-intl-normalizer": "^1.10",
+                "symfony/polyfill-php70": "^1.10",
                 "symfony/polyfill-php72": "^1.10"
             },
             "suggest": {
@@ -17797,7 +15689,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -17822,6 +15714,10 @@
                     "email": "laurent@bassin.info"
                 },
                 {
+                    "name": "Trevor Rowbotham",
+                    "email": "trevor.rowbotham@pm.me"
+                },
+                {
                     "name": "Symfony Community",
                     "homepage": "https://symfony.com/contributors"
                 }
@@ -17836,20 +15732,34 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
-                "reference": "40309d1700e8f72447bb9e7b54af756eeea35620"
+                "reference": "37078a8dd4a2a1e9ab0231af7c6cb671b2ed5a7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/40309d1700e8f72447bb9e7b54af756eeea35620",
-                "reference": "40309d1700e8f72447bb9e7b54af756eeea35620",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-normalizer/zipball/37078a8dd4a2a1e9ab0231af7c6cb671b2ed5a7e",
+                "reference": "37078a8dd4a2a1e9ab0231af7c6cb671b2ed5a7e",
                 "shasum": ""
             },
             "require": {
@@ -17861,7 +15771,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -17903,20 +15813,34 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-06-14T14:40:37+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "7110338d81ce1cbc3e273136e4574663627037a7"
+                "reference": "a6977d63bf9a0ad4c65cd352709e230876f9904a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7110338d81ce1cbc3e273136e4574663627037a7",
-                "reference": "7110338d81ce1cbc3e273136e4574663627037a7",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/a6977d63bf9a0ad4c65cd352709e230876f9904a",
+                "reference": "a6977d63bf9a0ad4c65cd352709e230876f9904a",
                 "shasum": ""
             },
             "require": {
@@ -17928,7 +15852,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -17966,20 +15890,34 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php56.git",
-                "reference": "a25861bb3c79b0ec2da9ede51de2ea573818b943"
+                "reference": "13df84e91cd168f247c2f2ec82cc0fa24901c011"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/a25861bb3c79b0ec2da9ede51de2ea573818b943",
-                "reference": "a25861bb3c79b0ec2da9ede51de2ea573818b943",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/13df84e91cd168f247c2f2ec82cc0fa24901c011",
+                "reference": "13df84e91cd168f247c2f2ec82cc0fa24901c011",
                 "shasum": ""
             },
             "require": {
@@ -17989,7 +15927,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -18026,20 +15964,111 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
-            "name": "symfony/polyfill-php72",
-            "version": "v1.17.0",
+            "name": "symfony/polyfill-php70",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/polyfill-php72.git",
-                "reference": "f048e612a3905f34931127360bdd2def19a5e582"
+                "url": "https://github.com/symfony/polyfill-php70.git",
+                "reference": "0dd93f2c578bdc9c72697eaa5f1dd25644e618d3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/f048e612a3905f34931127360bdd2def19a5e582",
-                "reference": "f048e612a3905f34931127360bdd2def19a5e582",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/0dd93f2c578bdc9c72697eaa5f1dd25644e618d3",
+                "reference": "0dd93f2c578bdc9c72697eaa5f1dd25644e618d3",
+                "shasum": ""
+            },
+            "require": {
+                "paragonie/random_compat": "~1.0|~2.0|~9.99",
+                "php": ">=5.3.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Php70\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ],
+                "classmap": [
+                    "Resources/stubs"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill backporting some PHP 7.0+ features to lower PHP versions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "shim"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
+        },
+        {
+            "name": "symfony/polyfill-php72",
+            "version": "v1.18.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-php72.git",
+                "reference": "639447d008615574653fb3bc60d1986d7172eaae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-php72/zipball/639447d008615574653fb3bc60d1986d7172eaae",
+                "reference": "639447d008615574653fb3bc60d1986d7172eaae",
                 "shasum": ""
             },
             "require": {
@@ -18048,7 +16077,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
+                },
+                "thanks": {
+                    "name": "symfony/polyfill",
+                    "url": "https://github.com/symfony/polyfill"
                 }
             },
             "autoload": {
@@ -18081,20 +16114,34 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-05-12T16:47:27+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
-                "reference": "fa0837fe02d617d31fbb25f990655861bb27bd1a"
+                "reference": "fffa1a52a023e782cdcc221d781fe1ec8f87fcca"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/fa0837fe02d617d31fbb25f990655861bb27bd1a",
-                "reference": "fa0837fe02d617d31fbb25f990655861bb27bd1a",
+                "url": "https://api.github.com/repos/symfony/polyfill-php73/zipball/fffa1a52a023e782cdcc221d781fe1ec8f87fcca",
+                "reference": "fffa1a52a023e782cdcc221d781fe1ec8f87fcca",
                 "shasum": ""
             },
             "require": {
@@ -18103,7 +16150,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -18143,20 +16190,34 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
-                "reference": "4a5b6bba3259902e386eb80dd1956181ee90b5b2"
+                "reference": "d87d5766cbf48d72388a9f6b85f280c8ad51f981"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/4a5b6bba3259902e386eb80dd1956181ee90b5b2",
-                "reference": "4a5b6bba3259902e386eb80dd1956181ee90b5b2",
+                "url": "https://api.github.com/repos/symfony/polyfill-php80/zipball/d87d5766cbf48d72388a9f6b85f280c8ad51f981",
+                "reference": "d87d5766cbf48d72388a9f6b85f280c8ad51f981",
                 "shasum": ""
             },
             "require": {
@@ -18165,7 +16226,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -18209,20 +16270,34 @@
                 "portable",
                 "shim"
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/polyfill-util",
-            "version": "v1.17.1",
+            "version": "v1.18.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-util.git",
-                "reference": "6dd644eda43cd2f3daa883d728d8ab4120a05af6"
+                "reference": "46b910c71e9828f8ec2aa7a0314de1130d9b295a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/6dd644eda43cd2f3daa883d728d8ab4120a05af6",
-                "reference": "6dd644eda43cd2f3daa883d728d8ab4120a05af6",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/46b910c71e9828f8ec2aa7a0314de1130d9b295a",
+                "reference": "46b910c71e9828f8ec2aa7a0314de1130d9b295a",
                 "shasum": ""
             },
             "require": {
@@ -18231,7 +16306,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.17-dev"
+                    "dev-master": "1.18-dev"
                 },
                 "thanks": {
                     "name": "symfony/polyfill",
@@ -18265,7 +16340,21 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2020-06-06T08:46:27+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T12:35:20+00:00"
         },
         {
             "name": "symfony/process",
@@ -18314,6 +16403,20 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-30T20:06:45+00:00"
         },
         {
@@ -18382,6 +16485,20 @@
                 "property",
                 "property path",
                 "reflection"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-06-04T09:56:18+00:00"
         },
@@ -18460,6 +16577,20 @@
                 "type",
                 "validator"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-06-15T11:50:15+00:00"
         },
         {
@@ -18521,6 +16652,20 @@
                 "interfaces",
                 "interoperability",
                 "standards"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-07-06T13:23:11+00:00"
         },
@@ -18592,6 +16737,20 @@
                 "unicode",
                 "utf-8",
                 "utf8"
+            ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-06-11T12:16:36+00:00"
         },
@@ -18997,6 +17156,12 @@
                 "api",
                 "graphql"
             ],
+            "funding": [
+                {
+                    "url": "https://opencollective.com/webonyx-graphql-php",
+                    "type": "open_collective"
+                }
+            ],
             "time": "2020-07-02T05:49:25+00:00"
         },
         {
@@ -19314,16 +17479,16 @@
         },
         {
             "name": "aws/aws-sdk-php",
-            "version": "3.145.3",
+            "version": "3.147.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aws/aws-sdk-php.git",
-                "reference": "69b7e99246c64d75b16dd3e926da0ea9f73088ad"
+                "reference": "e63974c002c0f6520da597d44a3f83ce46d7a612"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/69b7e99246c64d75b16dd3e926da0ea9f73088ad",
-                "reference": "69b7e99246c64d75b16dd3e926da0ea9f73088ad",
+                "url": "https://api.github.com/repos/aws/aws-sdk-php/zipball/e63974c002c0f6520da597d44a3f83ce46d7a612",
+                "reference": "e63974c002c0f6520da597d44a3f83ce46d7a612",
                 "shasum": ""
             },
             "require": {
@@ -19395,7 +17560,7 @@
                 "s3",
                 "sdk"
             ],
-            "time": "2020-07-08T18:13:01+00:00"
+            "time": "2020-07-17T18:14:13+00:00"
         },
         {
             "name": "behat/gherkin",
@@ -20017,6 +18182,20 @@
                 "redis",
                 "xcache"
             ],
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Fcache",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-07-07T18:54:01+00:00"
         },
         {
@@ -20140,6 +18319,20 @@
                 "constructor",
                 "instantiate"
             ],
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Finstantiator",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-29T17:27:14+00:00"
         },
         {
@@ -20201,6 +18394,20 @@
                 "lexer",
                 "parser",
                 "php"
+            ],
+            "funding": [
+                {
+                    "url": "https://www.doctrine-project.org/sponsorship.html",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://www.patreon.com/phpdoctrine",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/doctrine%2Flexer",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-05-25T17:44:05+00:00"
         },
@@ -20640,6 +18847,12 @@
                 "sftp",
                 "storage"
             ],
+            "funding": [
+                {
+                    "url": "https://offset.earth/frankdejonge",
+                    "type": "other"
+                }
+            ],
             "time": "2020-05-18T15:13:39+00:00"
         },
         {
@@ -20838,6 +19051,52 @@
             "time": "2020-06-23T17:12:15+00:00"
         },
         {
+            "name": "mikey179/vfsstream",
+            "version": "v1.6.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bovigo/vfsStream.git",
+                "reference": "231c73783ebb7dd9ec77916c10037eff5a2b6efe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bovigo/vfsStream/zipball/231c73783ebb7dd9ec77916c10037eff5a2b6efe",
+                "reference": "231c73783ebb7dd9ec77916c10037eff5a2b6efe",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.5|^5.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.6.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-0": {
+                    "org\\bovigo\\vfs\\": "src/main/php"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Frank Kleine",
+                    "homepage": "http://frankkleine.de/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Virtual file system to mock the real file system in unit tests.",
+            "homepage": "http://vfs.bovigo.org/",
+            "time": "2019-10-30T15:31:00+00:00"
+        },
+        {
             "name": "mtdowling/jmespath.php",
             "version": "2.5.0",
             "source": {
@@ -20985,6 +19244,12 @@
                 "duplicate",
                 "object",
                 "object graph"
+            ],
+            "funding": [
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/myclabs/deep-copy",
+                    "type": "tidelift"
+                }
             ],
             "time": "2020-06-29T13:22:24+00:00"
         },
@@ -21620,6 +19885,16 @@
                 "php",
                 "type"
             ],
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpoption/phpoption",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-06-07T10:40:07+00:00"
         },
         {
@@ -21687,20 +19962,20 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "0.12.32",
+            "version": "0.12.33",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "d03863f504c8432b3de4d1881f73f6acb8c0e67c"
+                "reference": "46e698a0452526a05c4a351d7c47c4b8c37a548d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/d03863f504c8432b3de4d1881f73f6acb8c0e67c",
-                "reference": "d03863f504c8432b3de4d1881f73f6acb8c0e67c",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/46e698a0452526a05c4a351d7c47c4b8c37a548d",
+                "reference": "46e698a0452526a05c4a351d7c47c4b8c37a548d",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1"
+                "php": "^7.1|^8.0"
             },
             "conflict": {
                 "phpstan/phpstan-shim": "*"
@@ -21725,7 +20000,21 @@
                 "MIT"
             ],
             "description": "PHPStan - PHP Static Analysis Tool",
-            "time": "2020-07-01T11:57:52+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/ondrejmirtes",
+                    "type": "github"
+                },
+                {
+                    "url": "https://www.patreon.com/phpstan",
+                    "type": "patreon"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/phpstan/phpstan",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-19T22:10:11+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -22119,6 +20408,52 @@
             ],
             "abandoned": true,
             "time": "2018-08-09T05:50:03+00:00"
+        },
+        {
+            "name": "psr/cache",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/php-fig/cache.git",
+                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/php-fig/cache/zipball/d11b50ad223250cf17b86e38383413f5a6764bf8",
+                "reference": "d11b50ad223250cf17b86e38383413f5a6764bf8",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Psr\\Cache\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "http://www.php-fig.org/"
+                }
+            ],
+            "description": "Common interface for caching libraries",
+            "keywords": [
+                "cache",
+                "psr",
+                "psr-6"
+            ],
+            "time": "2016-08-06T20:24:11+00:00"
         },
         {
             "name": "psr/simple-cache",
@@ -22928,6 +21263,20 @@
             ],
             "description": "Symfony BrowserKit Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-22T17:28:00+00:00"
         },
         {
@@ -22992,6 +21341,20 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-23T09:11:46+00:00"
         },
         {
@@ -23065,6 +21428,20 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-06-12T07:37:04+00:00"
         },
         {
@@ -23126,6 +21503,20 @@
             ],
             "description": "Symfony DomCrawler Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-23T00:03:06+00:00"
         },
         {
@@ -23181,6 +21572,20 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-23T09:11:46+00:00"
         },
         {
@@ -23243,70 +21648,21 @@
                 "mime",
                 "mime-type"
             ],
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-06-09T09:16:12+00:00"
-        },
-        {
-            "name": "symfony/polyfill-php70",
-            "version": "v1.17.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/symfony/polyfill-php70.git",
-                "reference": "471b096aede7025bace8eb356b9ac801aaba7e2d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/471b096aede7025bace8eb356b9ac801aaba7e2d",
-                "reference": "471b096aede7025bace8eb356b9ac801aaba7e2d",
-                "shasum": ""
-            },
-            "require": {
-                "paragonie/random_compat": "~1.0|~2.0|~9.99",
-                "php": ">=5.3.3"
-            },
-            "type": "library",
-            "extra": {
-                "branch-alias": {
-                    "dev-master": "1.17-dev"
-                },
-                "thanks": {
-                    "name": "symfony/polyfill",
-                    "url": "https://github.com/symfony/polyfill"
-                }
-            },
-            "autoload": {
-                "psr-4": {
-                    "Symfony\\Polyfill\\Php70\\": ""
-                },
-                "files": [
-                    "bootstrap.php"
-                ],
-                "classmap": [
-                    "Resources/stubs"
-                ]
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Nicolas Grekas",
-                    "email": "p@tchwork.com"
-                },
-                {
-                    "name": "Symfony Community",
-                    "homepage": "https://symfony.com/contributors"
-                }
-            ],
-            "description": "Symfony polyfill backporting some PHP 7.0+ features to lower PHP versions",
-            "homepage": "https://symfony.com",
-            "keywords": [
-                "compatibility",
-                "polyfill",
-                "portable",
-                "shim"
-            ],
-            "time": "2020-06-06T08:46:27+00:00"
         },
         {
             "name": "symfony/stopwatch",
@@ -23356,6 +21712,20 @@
             ],
             "description": "Symfony Stopwatch Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-20T08:37:50+00:00"
         },
         {
@@ -23415,6 +21785,20 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
             "time": "2020-05-20T08:37:50+00:00"
         },
         {
@@ -23459,23 +21843,23 @@
         },
         {
             "name": "theseer/tokenizer",
-            "version": "1.1.3",
+            "version": "1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/theseer/tokenizer.git",
-                "reference": "11336f6f84e16a720dae9d8e6ed5019efa85a0f9"
+                "reference": "75a63c33a8577608444246075ea0af0d052e452a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/11336f6f84e16a720dae9d8e6ed5019efa85a0f9",
-                "reference": "11336f6f84e16a720dae9d8e6ed5019efa85a0f9",
+                "url": "https://api.github.com/repos/theseer/tokenizer/zipball/75a63c33a8577608444246075ea0af0d052e452a",
+                "reference": "75a63c33a8577608444246075ea0af0d052e452a",
                 "shasum": ""
             },
             "require": {
                 "ext-dom": "*",
                 "ext-tokenizer": "*",
                 "ext-xmlwriter": "*",
-                "php": "^7.0"
+                "php": "^7.2 || ^8.0"
             },
             "type": "library",
             "autoload": {
@@ -23495,25 +21879,31 @@
                 }
             ],
             "description": "A small library for converting tokenized PHP source code into XML and potentially other formats",
-            "time": "2019-06-13T22:48:21+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/theseer",
+                    "type": "github"
+                }
+            ],
+            "time": "2020-07-12T23:59:07+00:00"
         },
         {
             "name": "vlucas/phpdotenv",
-            "version": "v2.6.5",
+            "version": "v2.6.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/vlucas/phpdotenv.git",
-                "reference": "2e977311ffb17b2f82028a9c36824647789c6365"
+                "reference": "e1d57f62db3db00d9139078cbedf262280701479"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/2e977311ffb17b2f82028a9c36824647789c6365",
-                "reference": "2e977311ffb17b2f82028a9c36824647789c6365",
+                "url": "https://api.github.com/repos/vlucas/phpdotenv/zipball/e1d57f62db3db00d9139078cbedf262280701479",
+                "reference": "e1d57f62db3db00d9139078cbedf262280701479",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.3.9 || ^7.0 || ^8.0",
-                "symfony/polyfill-ctype": "^1.16"
+                "symfony/polyfill-ctype": "^1.17"
             },
             "require-dev": {
                 "ext-filter": "*",
@@ -23557,7 +21947,17 @@
                 "env",
                 "environment"
             ],
-            "time": "2020-06-02T14:06:52+00:00"
+            "funding": [
+                {
+                    "url": "https://github.com/GrahamCampbell",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/vlucas/phpdotenv",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-14T17:54:18+00:00"
         },
         {
             "name": "webmozart/assert",

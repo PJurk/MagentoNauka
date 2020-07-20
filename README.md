@@ -1,1 +1,1 @@
-docker_magento
+Magento setup on docker
