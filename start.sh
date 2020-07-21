@@ -25,10 +25,10 @@ then
     docker-compose up -d --build
     docker exec -it my-magento composer config http-basic.repo.magento.com $PUBLIC_KEY $PRIVATE_KEY
     echo "Deploying sample data"
-    docker exec -it my-magento php -dmemory_limit=5G bin/magento sampledata:deploy  
+    # docker exec -it my-magento php -dmemory_limit=5G bin/magento sampledata:deploy  
     echo "Installing magento"
     chmod -R 777 ./
-    . ./Scripts/install.sh
+    # . ./Scripts/install.sh
     echo "Ready"
 else
     docker-compose up -d --build

@@ -9,12 +9,12 @@ services:
       - db
       - mailhog
       - elasticsearch
-      - chrome
+      #- chrome
     ports:
       - "80:80"
     volumes:  
     - ./app:/var/www/html
-    - magento-tests:/app/dev/tests/acceptance/tests/_output/allure-results
+    #- magento-tests:/app/dev/tests/acceptance/tests/_output/allure-results
     env_file:
       - env
   db:
@@ -49,25 +49,25 @@ services:
       - "9300:9300"
     environment:
       - "discovery.type=single-node"
-  chrome:
-    image: selenium/standalone-chrome:3.141.59
-    container_name: chrome
-    ports:
-      - "5900:5900"
-    volumes:
-      - /dev/shm:/dev/shm
-  allure:
-    image: frankescobar/allure-docker-service
-    container_name: magento_allure
-    environment:
-      CHECK_RESULTS_EVERY_SECONDS: 1
-      KEEP_HISTORY: "TRUE"
-    ports:
-      - "4040:4040"
-      - "5050:5050"
-    volumes:
-      - magento-tests:/app/allure-results
+  #chrome:
+  #  image: selenium/standalone-chrome:3.141.59
+  #  container_name: chrome
+  #  ports:
+  #    - "5900:5900"
+  #  volumes:
+  #    - /dev/shm:/dev/shm
+  #allure:
+  #  image: frankescobar/allure-docker-service
+  #  container_name: magento_allure
+  #  environment:
+  #    CHECK_RESULTS_EVERY_SECONDS: 1
+  #    KEEP_HISTORY: "TRUE"
+  #  ports:
+  #    - "4040:4040"
+  #    - "5050:5050"
+  #  volumes:
+  #    - magento-tests:/app/allure-results
 
 volumes: 
   magento-app:
-  magento-tests:
+  #magento-tests:

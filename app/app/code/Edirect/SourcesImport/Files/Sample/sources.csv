@@ -1,5 +1,5 @@
-source_code,name,region_id,region,city,street,postcode,enabled,use_default_carrier_config,description,latitude,longitude,contact_name,email,phone,fax
-1-A-54,1_A_54,OPO,Opole,Opole,Opolska,42-441,1,1,,,,,,,
-1-B-54,1_B_54,OPO,Opole,Opole,Opolska,42-441,1,1,,,,,,,
-2-A-50,2_A_50,OPO,Opole,Opole,Opolska,42-441,1,1,,,,,,,
-2-B-50,2_B_50,OPO,Opole,Opole,Opolska,42-441,1,1,,,,,,,
+source_code,name,country_id,region_id,region,city,street,postcode,enabled,use_default_carrier_config,description,latitude,longitude,contact_name,email,phone,fax
+1-A-54,1_A_54,PL,693,opolskie,Opole,Opolska,42-441,1,1,,,,,,,
+1-B-54,1_B_54,PL,693,opolskie,Opole,Opolska,42-441,1,1,,,,,,,
+2-A-50,2_A_50,PL,693,opolskie,Opole,Opolska,42-441,1,1,,,,,,,
+2-B-50,2_B_50,PL,693,opolskie,Opole,Opolska,42-441,1,1,,,,,,,

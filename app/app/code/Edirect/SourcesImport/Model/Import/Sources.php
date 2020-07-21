@@ -47,6 +47,7 @@ class Sources extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
         'description',
         'latitude',
         'longitude',
+        'country_id',
         'region_id',
         'region',
         'city',
@@ -111,6 +112,10 @@ class Sources extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
             __('Region ID must be set.')
         );
         $this->addMessageTemplate(
+            'CountryIDIsRequired',
+            __('Country ID must be set.')
+        );
+        $this->addMessageTemplate(
             'RegionIsRequired',
             __('Region name must be set.')
         );
@@ -145,6 +150,7 @@ class Sources extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
         $sourceCode = $rowData['source_code'] ?? '';
         $name = $rowData['name'] ?? '';
         $region_id = $rowData['region_id'] ?? '';
+        $country_id = $rowData['country_id'] ?? '';
         $region = $rowData['region'] ?? '';
         $city = $rowData['city'] ?? '';
         $street = $rowData['street'] ?? '';
@@ -176,6 +182,10 @@ class Sources extends \Magento\ImportExport\Model\Import\Entity\AbstractEntity
 
         if (!$sourceCode) {
             $this->addRowError('SourceCodeIsRequired', $rowNum);
+        }
+
+        if (!$country_id) {
+            $this->addRowError('CountryIDIsRequired', $rowNum);
         }
 
         if (isset($this->_validatedRows[$rowNum])) {

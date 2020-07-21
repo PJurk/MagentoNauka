@@ -35,9 +35,8 @@ RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - \
   && apt-get install -y nodejs 
 
 # RUN curl -o- -L https://yarnpkg.com/install.sh | bash
-RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
-    echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list \
-    && apt-get -y update && apt-get install -y yarn
+# RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | bash apt-key add - echo "deb https://dl.yarnpkg.com/debian/ stable main" | bash tee /etc/apt/sources.list.d/yarn.list \
+#     && apt-get -y update && apt-get install -y yarn
   
 RUN curl -sSLO https://github.com/mailhog/mhsendmail/releases/download/v0.2.0/mhsendmail_linux_amd64 \
   && chmod +x mhsendmail_linux_amd64 \
@@ -63,6 +62,7 @@ COPY ./php.ini /usr/local/etc/php/php.ini
 #   && printf '* */1 * * * php /var/www/html/bin/magento cron:run\n' >> /etc/crontab \
 #   && printf '* */1 * * * php /var/www/html/bin/magento setup:cron:run\n#\n' >> /etc/crontab \
 RUN  service cron start  
+RUN a2enmod rewrite
 WORKDIR $INSTALL_DIR
 
 

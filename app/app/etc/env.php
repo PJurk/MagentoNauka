@@ -3,11 +3,8 @@ return [
     'backend' => [
         'frontName' => 'admin'
     ],
-    'queue' => [
-        'consumers_wait_for_messages' => 1
-    ],
     'crypt' => [
-        'key' => 'db7d96f5191d5de3b1d0e8e8a1dcac4e'
+        'key' => '7a64ee4c924b5a6a7ef43a3765df7e28'
     ],
     'db' => [
         'table_prefix' => '',
@@ -17,12 +14,9 @@ return [
                 'dbname' => 'magento',
                 'username' => 'magento',
                 'password' => 'magento',
-                'model' => 'mysql4',
-                'engine' => 'innodb',
-                'initStatements' => 'SET NAMES utf8;',
                 'active' => '1',
                 'driver_options' => [
-                    1014 => false
+
                 ]
             ]
         ]
@@ -33,7 +27,7 @@ return [
         ]
     ],
     'x-frame-options' => 'SAMEORIGIN',
-    'MAGE_MODE' => 'developer',
+    'MAGE_MODE' => 'default',
     'session' => [
         'save' => 'files'
     ],
@@ -75,7 +69,7 @@ return [
         'magento.test.com'
     ],
     'install' => [
-        'date' => 'Mon, 20 Jul 2020 11:01:04 +0000'
+        'date' => 'Mon, 20 Jul 2020 15:39:42 +0000'
     ],
     'system' => [
         'default' => [

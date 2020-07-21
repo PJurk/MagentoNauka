@@ -11,6 +11,6 @@ docker exec -it my-magento bin/magento app:config:import
 docker exec -it my-magento bin/magento setup:upgrade 
 
 # cd app/vendor/creativestyle/theme-creativeshop
-docker exec -it my-magento app/vendor/creativestyle/theme-creativeshop/yarn
-docker exec -it my-magento app/vendor/creativestyle/theme-creativeshop/yarn build
+# docker exec -it my-magento vendor/creativestyle/theme-creativeshop yarn
+# docker exec -it my-magento vendor/creativestyle/theme-creativeshop/yarn build
 # cd ../../../../
